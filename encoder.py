@@ -15,7 +15,7 @@ title_max_length = config.title_max_length
 content_max_length = config.content_max_length
 
 
-# 这个class专门对新闻资讯进行encoding
+# create encoder class
 class NewsEncoder(nn.Module):
     def __init__(self, out_dim=None):
         super(NewsEncoder, self).__init__()
